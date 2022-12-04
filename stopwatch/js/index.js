@@ -5,7 +5,6 @@ const [startBtn, resetBtn, stopBtn] = document.querySelectorAll('button');
 
 let time = new Date(0);
 const DELAY = 10;
-
 let timerId = null;
 
 startBtn.onclick = () => {
